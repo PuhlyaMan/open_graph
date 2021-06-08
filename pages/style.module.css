@@ -1,0 +1,16 @@
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  grid-gap: 30px;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}

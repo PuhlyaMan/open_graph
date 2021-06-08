@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  height: 200px;
+  width: 400px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 60px 60px 2fr 3fr;
+  column-gap: 0.5rem;
+}
